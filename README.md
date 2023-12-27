@@ -26,22 +26,26 @@ The system will prompt you with options to choose from:
 * Terminate the program.
 ## Input file
 The input file contains car details in the following format:
-> <number_of_cars>
-> <car_key> <car_name> <car_mass> <car_country>
-> ...
-> Example:
-> 3
-> 1 Toyota 1200 Japan
-> 2 Honda 1500 USA
-> 3 Ford 1400 USA
+```
+<number_of_cars>
+<car_key> <car_name> <car_mass> <car_country>
+...
+Example:
+3
+1 Toyota 1200 Japan
+2 Honda 1500 USA
+3 Ford 1400 USA
+```
 ## Output File (cars_2.txt)
 The output file will store the AVL tree in an in-order traversal format:
-> <car_key> <car_name> <car_mass> <car_country> <tree_height>
-> ...
-> Example:
-> 1 Toyota 1200 Japan 2
-> 2 Honda 1500 USA 1
-> 3 Ford 1400 USA 1
+```
+<car_key> <car_name> <car_mass> <car_country> <tree_height>
+...
+Example:
+1 Toyota 1200 Japan 2
+2 Honda 1500 USA 1
+3 Ford 1400 USA 1
+```
 ## Functionality Overview
 ### AVL Tree
 * Load: Load cars into an AVL tree and modify car masses.
